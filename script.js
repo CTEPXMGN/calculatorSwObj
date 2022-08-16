@@ -18,6 +18,6 @@ function calc(operator, a, b) {
     }
 }
 
-console.log(calc(operations.add, 2, 5));
-console.log(calc(operations.multi, 3, 15));
-console.log(calc(operations.sub, 7, 11));
+console.log(calc(operations[add], 2, 5));
+console.log(calc(operations[multi], 3, 15));
+console.log(calc(operations[sub], 7, 11));
